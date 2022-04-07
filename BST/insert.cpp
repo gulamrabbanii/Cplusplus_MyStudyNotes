@@ -30,13 +30,10 @@ void PrintNode(Node *head)
 int main()
 {
     int N, val;
-    Node *head;
+    Node *head = nullptr;
     std::cout << "Number of Nodes: ";
     std::cin >> N;
     std::cout << "Enter node values: ";
-    std::cin >> val;
-    N--;
-    head = insert(nullptr, val);
     while (N--)
     {
         std::cin >> val;
